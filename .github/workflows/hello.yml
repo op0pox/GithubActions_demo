@@ -1,0 +1,7 @@
+name: hello
+on: push
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "안녕하세요"
